@@ -4,13 +4,12 @@
 
 
 ## 1. 메인 페이지: 네 개의 소작품 선택 가능
-![이미지 8](https://github.com/user-attachments/assets/8bfe1fa5-41c6-4b95-bb86-0d39a5967a65)
-
+![이미지 13](https://github.com/user-attachments/assets/1f250946-b0c0-468b-b12f-8f65a994de36)
 
 ## 2. 소작품 메인 페이지
 - 홈, 이전, 다음으로 이동 가능
-![이미지 9](https://github.com/user-attachments/assets/aa6bff89-9ece-482f-b167-cbc1b703f06c)
+![이미지 14](https://github.com/user-attachments/assets/dd8585cf-b97e-4003-af2a-a7bdd1a484f9)
 
 ## 3. 소작품 상세 페이지
 - 각 작품의 역사적 배경 설명
-![이미지 10](https://github.com/user-attachments/assets/904aa151-bd44-4569-b8f4-e08690f4abf0)
+![이미지 15](https://github.com/user-attachments/assets/5d8f1c46-2288-40e5-8d6c-3834a28eb079)
