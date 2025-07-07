@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>동동 동대문을 돌려라~</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>동동 동대문을 돌려라~</h1>
+    <div class="content">
+      <img id="slideImage" src="" alt="" />
+      <div class="nav" id="navLinks"></div>
+    </div>
+    <script>
+      const totalPages = 19;
+      const params = new URLSearchParams(location.search);
+      const pageParam = params.get("page");
+
+      // 쿼리 없음 또는 page=1일 경우 index.html로 이동
+      if (!pageParam || pageParam === "1") {
+        location.href = "index.html";
+      } else {
+        let page = parseInt(pageParam);
+        if (isNaN(page) || page < 1) page = 1;
+        if (page > totalPages) page = totalPages;
+
+        const img = document.getElementById("slideImage");
+        img.src = `images/slide${page}.png`;
+        img.alt = `${page}페이지`;
+
+        const nav = document.getElementById("navLinks");
+        nav.innerHTML = `
+          <a href="index.html">홈으로</a>
+          ${page > 1 ? `<a href="?page=${page - 1}">◀ 이전</a>` : ""}
+          ${page < totalPages ? `<a href="?page=${page + 1}">다음 ▶</a>` : ""}
+        `;
+      }
+    </script>
+  </body>
+</html>
