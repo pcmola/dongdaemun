@@ -1,5 +1,7 @@
 ﻿# 소개
 - 레고로 만든 '동동 동대문을 돌려라~'에 대해, 역사적 배경을 학습할 수 있도록 웹페이지를 만들었습니다.
+![slide1](https://github.com/user-attachments/assets/d572dd88-b766-48d7-a181-accd1e7d78a4)
+
 
 ## 1. 메인 페이지: 네 개의 소작품 선택 가능
 ![이미지 8](https://github.com/user-attachments/assets/8bfe1fa5-41c6-4b95-bb86-0d39a5967a65)
